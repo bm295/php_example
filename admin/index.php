@@ -12,10 +12,10 @@ if (empty($module) || empty($action)) {
 $path = 'modules/'.$module.'/'.$action.'.php';
 
 if (file_exists($path)) {
-	include_once('../libs.session.php');
-	include_once('../libs.database.php');
-	include_once('../libs.role.php');
-	include_once('../libs.helper.php');
+	include_once('../libs/session.php');
+	include_once('../libs/database.php');
+	include_once('../libs/role.php');
+	include_once('../libs/helper.php');
 	include_once($path);
 }
 else {
