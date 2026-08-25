@@ -1,3 +1,8 @@
+Day 20 đã exhaustively đánh giá 55 task pairs và toàn bộ 10,395 cấu hình 5-pair + 1-unpaired, đồng thời kiểm tra nhiều objective formulations và sensitivity variants trước khi chọn matching.
+Preferred Matched-Pair Design v1 gồm T01–T05, T02–T04, T03–T06, T08–T09 và T10–T11, với T07 unpaired vì đây là lựa chọn duy nhất cho phép tồn tại complete design không có WEAK pair dưới frozen rubric.
+Rủi ro quan trọng nhất là single-developer carryover cùng sensitivity của T10–T11 đối với interpretation của D5, vì vậy repository reset, future counterbalancing và residual-confounding reporting phải được giữ như mandatory controls.
+Matched-Pair Design v1 hiện ở trạng thái CANDIDATE và đủ điều kiện chuyển sang Day 21 để operationalize OpenAPI-based Design-First treatment mà không thay frozen task scores hay business requirements.
+
 Day 19 đã chính thức chấm pre-experimental complexity cho toàn bộ T01–T11 bằng bảy dimensions và tạo Task Complexity Dataset v1 với score từ 6 đến 17.
 Distribution cho thấy T07 và T10 nằm ở đầu cao, T11 theo sau, trong khi phần lớn task tập trung quanh 7–12 nhưng không có task nào cần decomposition revision.
 Sensitivity analysis cho thấy weighting, dimension removal và các score ambiguity ±1 không làm thay đổi cấu trúc dataset đáng kể, đồng thời D2 Contract Structure và D7 Consumer Coupling vẫn đo được hai constructs khác nhau.
