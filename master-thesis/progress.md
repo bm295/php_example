@@ -1,3 +1,8 @@
+Day 21 đã operationalize OpenAPI-Based Design-First thành một state-driven treatment protocol với Contract Draft Ready, Structured Contract Self-Inspection, Contract Baseline, implementation, integration, conformance và explicit repair/revision loops.
+Treatment boundary quan trọng nhất là target implementation chỉ được bắt đầu sau khi Contract Baseline Gate hoàn thành, nhưng contract vẫn được phép sửa sau baseline nếu mọi revision được trace, re-inspect và re-verify.
+Rủi ro lớn nhất là treatment bundling và self-inspection/tooling bias, vì vậy mọi inspection, linting, tests, conformance, DoD và logging phải có functional counterpart tương đương trong Code-First và chỉ timing/order mới được khác.
+Design-First Treatment Protocol v1, Fidelity Checklist v1 và Treatment Symmetry Ledger v0.1 hiện ở trạng thái CANDIDATE và được chuyển sang Day 22 để xây Code-First protocol và thực hiện symmetry audit.
+
 Day 20 đã exhaustively đánh giá 55 task pairs và toàn bộ 10,395 cấu hình 5-pair + 1-unpaired, đồng thời kiểm tra nhiều objective formulations và sensitivity variants trước khi chọn matching.
 Preferred Matched-Pair Design v1 gồm T01–T05, T02–T04, T03–T06, T08–T09 và T10–T11, với T07 unpaired vì đây là lựa chọn duy nhất cho phép tồn tại complete design không có WEAK pair dưới frozen rubric.
 Rủi ro quan trọng nhất là single-developer carryover cùng sensitivity của T10–T11 đối với interpretation của D5, vì vậy repository reset, future counterbalancing và residual-confounding reporting phải được giữ như mandatory controls.
