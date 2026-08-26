@@ -1,3 +1,8 @@
+Day 22 đã operationalize Code-First thành một treatment trong đó substantive implementation phải đạt Implementation Baseline trước khi target OpenAPI Description được reconstructed, inspected và baselined.
+Quyết định quan trọng nhất là sử dụng manual structured OAD reconstruction thay vì automatic generation, nhờ đó giảm đáng kể nguy cơ experiment biến thành comparison giữa manual contract authoring và generator tooling.
+Symmetry audit cho thấy DF và CF có thể sử dụng cùng bảy quality-control activities, cùng DoD, tests, inspection, lint, integration, conformance và measurement rules, với unexplained intervention differences bằng zero nhưng vẫn còn inherent provenance/cognitive differences do treatment ordering.
+Design-First v1 và Code-First v1 hiện đều ở trạng thái CANDIDATE — READY FOR COMMON-CONTROL FREEZE và được chuyển sang Day 23 để khóa common environment, shared DoD, tooling, acceptance harness và repository-state controls.
+
 Day 21 đã operationalize OpenAPI-Based Design-First thành một state-driven treatment protocol với Contract Draft Ready, Structured Contract Self-Inspection, Contract Baseline, implementation, integration, conformance và explicit repair/revision loops.
 Treatment boundary quan trọng nhất là target implementation chỉ được bắt đầu sau khi Contract Baseline Gate hoàn thành, nhưng contract vẫn được phép sửa sau baseline nếu mọi revision được trace, re-inspect và re-verify.
 Rủi ro lớn nhất là treatment bundling và self-inspection/tooling bias, vì vậy mọi inspection, linting, tests, conformance, DoD và logging phải có functional counterpart tương đương trong Code-First và chỉ timing/order mới được khác.
